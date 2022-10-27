@@ -1,4 +1,4 @@
-package com.ashbell.leetcode.simple.s02;
+package com.ashbell.leetcode.medium.m02;
 
 /**
  * @author: xyl
