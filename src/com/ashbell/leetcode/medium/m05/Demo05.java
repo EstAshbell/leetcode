@@ -61,16 +61,12 @@ public class Demo05 {
                         array[x][y] = array[x+1][y-1];
                     }
                 }
-
                 if(array[x][y] && y-x+1>maxLen){
                     maxLen = y-x+1;
                     result = s.substring(x,y+1);
                 }
-
             }
         }
-
-
         return result;
     }
 
